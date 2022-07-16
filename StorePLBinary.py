@@ -1,0 +1,12 @@
+import pickle
+f=open("PL.dat","wb")
+i=('Pearl','Ruby','Python','Java')
+pickle.dump(i,f)
+f.close()
+f=open("PL.dat","rb")
+d=pickle.load(f)
+print("Programming Language 1: ",d[0])
+print("Programming Language 2: ",d[1])
+print("Programming Language 3: ",d[2])
+print("Programming Language 4: ",d[3])
+print("Records saved.")

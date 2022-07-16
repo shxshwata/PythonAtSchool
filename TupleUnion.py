@@ -1,0 +1,6 @@
+a = (3, 4, 5, 6) 
+b = (5, 7, 4, 10) 
+print("The original tuple 1 : " + str(a)) 
+print("The original tuple 2 : " + str(b)) 
+res = tuple(set(a).union(set(b))) 
+print("The union elements from tuples are : " + str(res)) 

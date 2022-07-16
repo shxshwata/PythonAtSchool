@@ -1,0 +1,13 @@
+f1=open("output1.txt","w")
+f2=("file.txt","r")
+data=f2.read()
+data_1=data[::-1]
+f1.write(data_1)
+f1.close()
+f2.close()
+f1=open('file.txt','r')
+f2=open('output.txt','r')
+print('Content of output1.txt',f2.read())
+print('Content of output1.txt',f1.read())
+f1.close()
+f2.close()

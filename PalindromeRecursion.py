@@ -1,3 +1,4 @@
+#Program to find out if a number is a palindrome with recursion
 rev=0
 def pal(n):
     global rev
